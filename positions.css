@@ -1,0 +1,43 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    left:50px;
+}
+p{
+    width: 100px;
+    height:50px;
+    background-color: brown;
+    position: relative;
+    left:20px;
+}
+#parent{
+    height:100px;
+    width:150px;
+    position: relative;
+    top:100px;
+background-color: aquamarine;
+}
+#child{
+    height:100px;
+    width:150px;
+    position: relative;
+    top:100px;
+    position: static;
+    background-color: chartreuse;
+
+}
+#fixed{
+    
+    position: fixed;
+    top:50px;
+    left:100px;
+
+}
+#sticky{
+    background-color: gold;
+    position: sticky;
+    left:28px;
+    top:600px;
+
+}
